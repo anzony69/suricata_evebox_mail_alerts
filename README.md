@@ -1,5 +1,8 @@
 # Suricata + EveBox: alertas por correo con Postfix
 
+<img width="1662" height="503" alt="image" src="https://github.com/user-attachments/assets/47d610e4-abab-459a-88a4-7de6eee20a72" />
+
+
 Este repositorio documenta un mecanismo de notificación por correo electrónico para Suricata. Un script Bash vigila el archivo de eventos `eve.json`, filtra las alertas de mayor prioridad y envía correos mediante Postfix, utilizando un relay SMTP autenticado. EveBox permite consultar los eventos desde una interfaz web, pero el script de notificación funciona de forma independiente.
 
 ## Arquitectura
